@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+    <script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+       function onDeviceReady() {
+         var ref = window.open('https://www.ovplatform.tk/afrh/www/', '_self', 'location=no');
+      
+    }
+    </script>
+  <body class="theme-#52B9B2">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+       <div class="list-block">
+      <ul>
+        <li class="item-content ">
+            <a href="index.html">
+          
+          <div class="item-media"><img src="img/home.png"/></div>
+          <div class="item-inner">
+            <div class="item-title panel-close">الرئيسيه </div>
+            </a>
+          </div>
+        </li>
+    
+            <li class="item-content">
+              <a href="serise.html">
+              
+          <div class="item-media"><img src="img/video-player.png"/></div>
+          <div class="item-inner">
+            <div class="item-title panel-close">الحلقات </div>
+              </a>
+          </div>
+        </li>
+
+         
+    
+      </ul>
+    
+    </div>
+
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Right panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+  
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+                    <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding"> </div>
+            <div class="right">
+              <h5>
+            أفراح القبه
+              </h5>
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+              <div class="content-block">
+                <div class="content-block-inner">
+             <img src="img/afrah.jpg">
+                </div>
+              </div>
+              <div class="content-block-title t">  : قصة المسلسل</div>
+              <div class="details">
+قصة    
+داخل إحدى الفرق المسرحية خلال حقبة السبعينيات، يعمل ممثلو الفرقة على المشاركة في مسرحية جديدة تحمل اسم (أفراح القبة)، يكتشف الممثلون أن أحداث المسرحية تدور حول شخصياتهم الحقيقية في كواليس المسرح، وأن مؤلف المسرحية يعرض أمامهم أسرارهم المشينة التي حدثت بالماضي. يسعى الممثلون لإيقاف هذه المسرحية الفاضحة لهم، لكن مالك الفريق يُصر على استكمال العمل لكي يتطهر من آثام الماضي، ويجد الممثلون أنفسهم مجبرين على الاستمرار في تمثيل أدوارهم الحقيقيه.
+              </div>
+              <div class="trailer">
+ <div class="row no-gutter">
+        <div class="col-100">
+<iframe  src="https://www.youtube.com/embed/gOKkk1cS3Eg" frameborder="0" allowfullscreen></iframe>
+        </div>
+ </div>
+              </div>
+
+                       <div class="row no-gutter app">
+<div class="col-33">
+<img src="img/lama-tamer.jpg"/>
+</div>
+
+<div class="col-33">
+<img src="img/heba.jpg"/>
+</div>
+<div class="col-33">
+<img src="img/maxresdefault.jpg"/>
+</div>
+
+
+              </div>
+              <p class="buttons-row">
+  <a href="serise.html" class="button button-fill color-red">لمشاهدة الحلقات</a>
+</p>
+<div class="list-block cards-list">
+  <ul>
+
+ 
+
+
+
+  </ul>
+</div>
+      
+       <div class="row no-gutter">
+        <div class="col-100">
+        </div>
+       </div>
+        
+              <div class="content-block">
+                <div class="row">
+         
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+      
+        </div>
+      </div>
+    </div>
+        
+<script src="cordova.js"></script>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
